@@ -167,6 +167,15 @@ int main()
     return 0;
 }
 
+answer is 1064412205
 
 '''
+from math import factorial
+def calculate_combinations(n, r):
+    return factorial(n) // factorial(r) // factorial(n-r)
+
+totaldist = 7
+count = 0
+
+
 
